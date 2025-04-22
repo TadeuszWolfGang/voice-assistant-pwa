@@ -1,14 +1,20 @@
-
 {
-  "name": "Voice Assistant PWA",
+  "name": "Voice Assistant",
   "short_name": "Assistant",
-  "start_url": "/",
+  "start_url": ".",
   "display": "standalone",
   "background_color": "#ffffff",
-  "description": "PWA głosowy asystent GPT z obsługą Ray-Ban Meta",
-  "icons": [{
-    "src": "dog-icon.png",
-    "type": "image/png",
-    "sizes": "192x192"
-  }]
+  "theme_color": "#9dd3df",
+  "icons": [
+    {
+      "src": "icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
 }
