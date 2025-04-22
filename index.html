@@ -1,27 +1,20 @@
-
 <!DOCTYPE html>
 <html lang="pl">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Voice Assistant PWA</title>
-<link rel="icon" href="/favicon.ico" type="image/x-icon">
-<link rel="manifest" href="/manifest.json">
-<link rel="apple-touch-icon" href="/icon-192.png">
-<meta name="apple-mobile-web-app-capable" content="yes">
-<meta name="apple-mobile-web-app-status-bar-style" content="default">
-<meta name="apple-mobile-web-app-title" content="Voice Assistant">
-
-  <style>
-    body { font-family: sans-serif; text-align: center; background: #f4f4f4; padding: 2em; }
-    button { padding: 1em 2em; font-size: 1.2em; }
-    #result { margin-top: 2em; white-space: pre-wrap; }
-  </style>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Voice Assistant</title>
+  <link rel="manifest" href="/manifest.json">
+  <link rel="icon" href="/favicon.ico" type="image/x-icon">
+  <link rel="apple-touch-icon" href="/icon-192.png">
+  <meta name="theme-color" content="#9dd3df">
 </head>
 <body>
-  <h1>🐶 Voice Assistant</h1>
-  <button id="startButton">🎙️ Start Listening</button>
-  <div id="result">Kliknij przycisk, aby zacząć mówić</div>
-  <script src="script.js"></script>
+  <main>
+    <h1>🎤 Voice Assistant</h1>
+    <button id="startButton">Start Listening</button>
+    <pre id="result"></pre>
+  </main>
+  <script src="voice-assistant.js"></script>
 </body>
 </html>
